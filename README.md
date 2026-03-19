@@ -1,10 +1,10 @@
-# LOAN_DEAFULT_PREDICTION
+# LOAN-DEFAULT-PREDICTION
 
 ## 🚀 Project Overview
 Loan default prediction is a core problem in consumer lending. The goal is to classify borrowers as Fully Paid or Charged Off (Default) using only features available before a loan is issued — avoiding data leakage from post-issuance payment columns.
 Target Variable: loan_status → Binary: Default (Charged Off) vs Fully Paid
 
-## Dataset
+## 🧱 Dataset
 
 Source: LendingClub Accepted Loans (2007–2018 Q4)
 
