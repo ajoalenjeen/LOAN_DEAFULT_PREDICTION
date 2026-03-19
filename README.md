@@ -12,6 +12,28 @@ Size: ~2.2 million rows, 150 columns (raw)
 
 Note: The dataset is too large for GitHub. See How to Run for download instructions.
 
+## Project Structure
+
+```
+Loan-Default-Prediction/
+├── dataset_sample/                        # Dataset (not tracked — download separately)
+│   └── accepted_2007_to_2018Q4.csv
+├── models/                      # Saved trained models (.pkl)
+│   ├── logistic_regression.pkl
+│   ├── decision_tree.pkl
+│   ├── xgboost_default.pkl
+│   ├── xgboost_tuned.pkl
+│   └── standard_scaler.pkl
+├── notebooks/
+│   └── loan_default_prediction.ipynb
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+---
+
 ## What I Did
 
 1. Loaded 2M+ rows using chunked reading (50k-row batches) to manage memory
