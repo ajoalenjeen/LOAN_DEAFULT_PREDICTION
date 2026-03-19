@@ -25,12 +25,10 @@ Note: The dataset is too large for GitHub. See How to Run for download instructi
 
 ## Key Results
 
-| Model | ROC-AUC | Precision | Recall | F1-Score |
-|---|---|---|---|---|
-| Logistic Regression | X.XXXX | X.XXXX | X.XXXX | X.XXXX |
-| Decision Tree | X.XXXX | X.XXXX | X.XXXX | X.XXXX |
-| Random Forest | X.XXXX | X.XXXX | X.XXXX | X.XXXX |
-| XGBoost (default) | X.XXXX | X.XXXX | X.XXXX | X.XXXX |
-| **XGBoost (Optuna tuned)** | **X.XXXX** | **X.XXXX** | **X.XXXX** | **X.XXXX** |
+* XGBoost (Optuna tuned): ROC-AUC ≈ 0.96 | Accuracy ≈ 86% (Recall ≈ 0.92) ← Best model
+* XGBoost (default): ROC-AUC ≈ 0.96 | Accuracy ≈ 85% (Recall ≈ 0.94)
+* Decision Tree: ROC-AUC ≈ 0.93 | Accuracy ≈ 86% (Recall ≈ 0.83)
+* Random Forest: ROC-AUC ≈ 0.93 | Accuracy ≈ 87% (Recall ≈ 0.76)
+* Logistic Regression: ROC-AUC ≈ 0.93 | Accuracy ≈ 88% (Recall ≈ 0.61)
 
-> Best model: **XGBoost (Optuna tuned)** with ROC-AUC of X.XXXX
+
