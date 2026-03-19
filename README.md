@@ -34,7 +34,7 @@ Note: The dataset is too large for GitHub. See How to Run for download instructi
 
 ## ▶ How to Run
 
-1. Clone repo: [LOAN_DEFAULT_PREDICTION](https://github.com/ajoalenjeen/LOAN_DEFAULT_PREDICTION)
+1. Clone repo: [LOAN_DEFAULT_PREDICTION](https://github.com/ajoalenjeen/LOAN_DEAFULT_PREDICTION)
 
 2. Create virtual env and install requirements:
 ```bash
