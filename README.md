@@ -16,7 +16,7 @@ Note: The dataset is too large for GitHub. See How to Run for download instructi
 
 ```
 Loan-Default-Prediction/
-├── dataset_sample/                        # Dataset (not tracked — download separately)
+├── dataset_sample/                        # First 1000 rows
 │   └── accepted_2007_to_2018Q4.csv
 ├── models/                      # Saved trained models (.pkl)
 │   ├── logistic_regression.pkl
