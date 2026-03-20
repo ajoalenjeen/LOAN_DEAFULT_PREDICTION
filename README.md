@@ -23,7 +23,6 @@ Loan-Default-Prediction/
 │   ├── decision_tree.pkl
 │   ├── xgboost_default.pkl
 │   ├── xgboost_tuned.pkl
-│   └── standard_scaler.pkl
 ├── notebooks/
 │   └── loan_default_prediction.ipynb
 ├── requirements.txt
